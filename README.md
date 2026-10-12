@@ -1,5 +1,7 @@
 # gosseract-test
 
+[![CI](https://github.com/Petox03/gosseract-test/actions/workflows/ci.yml/badge.svg)](https://github.com/Petox03/gosseract-test/actions/workflows/ci.yml)
+
 Lab de OCR en Go para extraer el **total** de tickets con Tesseract:
 preprocesamiento de imagen + OCR + extracción por regex, hecho a mano
 y self-hosted en Docker.
