@@ -1,0 +1,24 @@
+.git
+.gitignore
+
+*.exe
+
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store
+
+Dockerfile
+compose.yml
+docker-compose.yml
+
+*.md
+LICENSE
+
+# Datos locales del lab (no van al contexto de build)
+receipts/
+
+# Config de entorno/agente/CI
+.devcontainer/
+.devin/
+.github/

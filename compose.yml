@@ -1,0 +1,16 @@
+name: gosseract-test
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - gosseract-test-gocache:/root/.cache/go-build
+      - gosseract-test-gomodcache:/root/.cache/go-mod
+    tty: true
+
+volumes:
+  gosseract-test-gocache:
+  gosseract-test-gomodcache:

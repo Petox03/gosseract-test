@@ -1,0 +1,42 @@
+# Compile (pueden no tener extensión)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Tests
+*.out
+*.test
+*.prof
+
+# Reload
+/tmp/
+/bin/
+
+
+# Dependency Manager
+/vendor/
+
+
+# environment var
+.env
+.env.local
+
+# Basura de sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.orig
+
+# Config de sesión del agente
+.devin/
+
+# Datos locales del lab
+/img/
+/receipts/
